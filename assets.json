@@ -1,24 +1,24 @@
 {
-  "version": "0.28.1",
-  "totalBytes": 81874210,
-  "loader": "Build/f2d64e9d7378-WebGL.loader.js",
-  "framework": "Build/967ef9299fbb-WebGL.framework.js.unityweb",
+  "version": "0.29.0",
+  "totalBytes": 81908990,
+  "loader": "Build/e54155d5ac45-WebGL.loader.js",
+  "framework": "Build/592821aca133-WebGL.framework.js.unityweb",
   "data": {
     "parts": [
-      "Build/3039aad05764-WebGL.data.unityweb.part0",
-      "Build/3039aad05764-WebGL.data.unityweb.part1",
-      "Build/3039aad05764-WebGL.data.unityweb.part2",
-      "Build/3039aad05764-WebGL.data.unityweb.part3",
-      "Build/3039aad05764-WebGL.data.unityweb.part4"
+      "Build/d48258000150-WebGL.data.unityweb.part0",
+      "Build/d48258000150-WebGL.data.unityweb.part1",
+      "Build/d48258000150-WebGL.data.unityweb.part2",
+      "Build/d48258000150-WebGL.data.unityweb.part3",
+      "Build/d48258000150-WebGL.data.unityweb.part4"
     ],
-    "bytes": 76092086,
-    "sha256": "3039aad057646f6319a1d6786e17064bfe6847312cf67744563995187e412061"
+    "bytes": 76095005,
+    "sha256": "d4825800015003be7e1b4fd2c7d309790ae7131a9e71b5b7c591bfbe81dee095"
   },
   "wasm": {
     "parts": [
-      "Build/ab0de0242168-WebGL.wasm.unityweb"
+      "Build/05d1a892bd5f-WebGL.wasm.unityweb"
     ],
-    "bytes": 5650842,
-    "sha256": "ab0de02421681f074db8d3bfb4178897dca8a9c3c268ad2264f300ff6415cb3e"
+    "bytes": 5682636,
+    "sha256": "05d1a892bd5f6b5bdcadd071f957c4920073819a1e9babe8f9a6a503c3501fd7"
   }
 }
