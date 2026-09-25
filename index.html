@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko"><head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+ <meta name="theme-color" content="#111b20"><meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="description" content="여섯 드래곤과 맹약을 맺고 고원을 지키세요. 각기 다른 사냥꾼과 함께하는 3D 액션 모험.">
+ <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest">
+ <link rel="preload" href="intro-oath.jpg" as="image" type="image/jpeg">
+ <title>ASHBOUND · 용의 맹약</title><link rel="stylesheet" href="game.css?v=0.9.0"><link rel="stylesheet" href="intro.css?v=1">
+<link rel="stylesheet" href="typography.css?v=0.26.0">
+<link rel="stylesheet" href="interface-v021.css?v=0.26.0"></head><body>
+ <canvas id="game" tabindex="0" aria-label="용의 맹약 게임 화면"></canvas>
+ <main id="gate" aria-labelledby="intro-title">
+  <div class="intro-art" aria-hidden="true"><img src="intro-oath.jpg" alt="" fetchpriority="high" decoding="async" width="1672" height="941"></div>
+  <div class="intro-shade" aria-hidden="true"></div>
+  <div class="intro-embers" aria-hidden="true">
+   <i style="--x:48%;--d:8s;--t:-2s"></i><i style="--x:57%;--d:11s;--t:-6s"></i><i style="--x:66%;--d:9s;--t:-4s"></i><i style="--x:74%;--d:7s;--t:-1s"></i><i style="--x:83%;--d:10s;--t:-8s"></i><i style="--x:94%;--d:12s;--t:-5s"></i>
+  </div>
+  <section class="intro-copy">
+   <p class="eyebrow"><span aria-hidden="true"></span>여섯 혈통, 하나의 맹약</p>
+   <h1 id="intro-title" class="intro-title">ASHBOUND</h1><p class="intro-subtitle">용의 맹약</p>
+   <div class="oath-divider" aria-hidden="true"></div>
+   <p class="intro-lead">사라진 기수의 흔적을 따라, 용과 맹약을.<br><span>형의 흔적을 찾고, 용과 함께 계곡을 지키세요</span></p>
+   <div class="options"><label><input id="touch" type="checkbox"> 터치 조작</label><label><input id="light" type="checkbox"> 가벼운 화질</label></div>
+   <p id="exit-note" hidden role="status">여정을 저장하고 게임을 종료했습니다.<br>다시 시작하면 저장된 성장과 동료를 이어갑니다.</p>
+   <button id="start"><span>게임 시작</span><span class="ui-icon ui-icon-play" aria-hidden="true"></span></button>
+   <div id="loading" hidden><progress id="progress" max="1" value="0"></progress><p id="status" role="status" aria-live="polite">고원으로 가는 길을 여는 중…</p></div>
+   <p class="hint">휴대폰은 가로 화면으로 플레이하세요.<br>캐릭터 선택 → ‘이야기 시작’에서 줄거리와 다음 목표를 확인하세요.</p>
+   <p id="download" class="small"></p>
+   <p id="error" hidden role="alert"></p><button id="retry" hidden>다시 시도</button>
+  </section>
+  <div class="intro-journey" aria-hidden="true"><span>01 <b>맞서다</b></span><span>02 <b>길들이다</b></span><span>03 <b>비상하다</b></span></div>
+ </main>
+ <button id="fullscreen" title="전체 화면" aria-label="전체 화면"><span class="ui-icon ui-icon-fullscreen" aria-hidden="true"></span></button>
+ <aside id="rotate" hidden>휴대폰을 가로로 돌려주세요.<br>게임은 잠시 멈췄습니다.</aside>
+ <script src="game.js?v=0.26.0" defer></script>
+</body></html>
+

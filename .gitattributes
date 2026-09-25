@@ -1,0 +1,4 @@
+* text=auto
+*.unityweb -text
+*.part* -text
+*.ttf -text

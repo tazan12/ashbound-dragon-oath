@@ -1,0 +1,5 @@
+.ui-icon{display:inline-block;flex:none;background-image:url(ui-utility-v021.png);background-repeat:no-repeat;vertical-align:middle;width:24px;height:24px;}
+.ui-icon-play{background-size:764.6552% 329.7398%;background-position:65.4994% 17.7994%;}
+.ui-icon-fullscreen{background-size:624.6479% 326.1029%;background-position:64.8322% 82.2764%;}
+.ui-icon-close{background-size:669.4340% 334.7170%;background-position:35.5202% 17.6849%;}
+#fullscreen{display:flex;align-items:center;justify-content:center;border-radius:12px;background:#091620e6;border:1px solid #6b7c815c;box-shadow:0 5px 18px #0005;}#fullscreen:hover{border-color:#dbba72;}#start .ui-icon{margin-left:16px;filter:drop-shadow(0 1px 3px #0008);} .options label{border:1px solid #697c8555;border-radius:10px;background:#091620a8;padding:6px 12px;} .options{gap:10px!important;}
